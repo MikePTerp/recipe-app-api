@@ -1,1 +1,15 @@
 docker-compose run --rm app sh -c "python manage.py test"
+
+
+
+To start the server: docker-compose up
+
+
+////GIT:
+
+git add .
+git commit -a
+enter message
+esc eller måske page down
+:wq enter
+git push origin
