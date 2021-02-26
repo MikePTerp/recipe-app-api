@@ -13,3 +13,8 @@ enter message
 esc eller måske page down
 :wq enter
 git push origin
+
+
+/To create a new app:
+docker-compose run --rm app sh -c "python manage.py startapp *insert name*"
+docker-compose run--rm app sh -c "python manage.py startapp recipe"
